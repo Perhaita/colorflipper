@@ -1,0 +1,132 @@
+.upper_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+
+  box-shadow: 5px 7px 18px #888888;
+}
+
+body {
+  background-color: #f1f5f8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.25rem;
+  font-family: cursive;
+  padding-right: 400px;
+}
+
+.body_menu {
+  margin: 0 0 0 ;
+}
+
+h4 {
+  color: rgb(105, 105, 240);
+  display: block;
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 6px;
+  padding-left: 400px;
+  font-size: 20px;
+}
+
+.simple_class {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.simple_class:hover {
+  color: rgb(118, 118, 240);
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+/* #container {
+  font-size: 2.5rem;
+  background-color: #222;
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  width: 650px;
+  height: 65px;
+  justify-content: center;
+  margin-top: 400px;
+  margin-left: 630px;
+  border-radius: 6px;
+  font-family: cursive;
+} */
+
+#container {
+  font-size: 2.5rem;
+  background-color: #222;
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  width: 620px;
+  height: 62px;
+  justify-content: center;
+  border-radius: 6px;
+  font-family: cursive;
+  margin-top: 20%;
+  margin-left: 34%;
+}
+
+.span {
+  color: aqua;
+}
+
+.backcol {
+  color: rgb(255, 255, 255);
+}
+
+.btn_div {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: 2px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 26px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  letter-spacing: 3px;
+}
+.btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.color {
+  color: hsl(205, 78%, 60%);
+}
